@@ -10,7 +10,7 @@ context('Funcionalidade Login', () =>{
         cy.get('#username').type('aluno_ebac@teste.com')
         cy.get('#password').type('teste@teste.com')
         cy.get('.woocommerce-form > .button').click()
-        cy.get('.page-title').should('contain', 'Minha conta')
+        cy.get('.page-title').contains('Minha Conta', { matchCase: false })
         cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá')
     })
 
