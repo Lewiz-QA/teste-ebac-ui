@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Lewiz-QA/teste-ebac-ui#readme",
   "devDependencies": {
     "cypress": "^10.6.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.5.0"
   }
 }
